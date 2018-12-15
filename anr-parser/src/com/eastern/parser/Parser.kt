@@ -52,6 +52,9 @@ object Parser : IParser {
                 if (it.isEmpty() || it.isBlank()) {
                     threadStackStart = false
                 }
+                if (contentDesc.threadList.isEmpty()) {
+                    contentDesc.systemDesc.add(it)
+                }
             }
             preLine = it
             lineNum++

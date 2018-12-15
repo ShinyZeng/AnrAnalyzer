@@ -2,6 +2,9 @@ package com.eastern.parser.test
 
 import com.eastern.parser.Parser
 import java.io.File
+import java.io.FileInputStream
+import java.io.IOException
+import java.util.*
 
 
 object MainTest {
@@ -9,8 +12,25 @@ object MainTest {
 
     @JvmStatic
     fun main(args: Array<String>) {
-        val ret = Parser.parse("com.duowan.mobile", File("/home/xxx/3cdcbff3-c170-4de2-a5ec-1165b65f2c32/traces.txt"))
-        println(ret)
+        val prop = Properties()
+        var input: FileInputStream? = null
+        try {
+            input = FileInputStream("./local.properties")
+            prop.load(input)
+            val ret = Parser.parse(prop.getProperty("pkgName"), File(prop.getProperty("traceFile")))
+            println(ret)
+        } catch (io: IOException) {
+            io.printStackTrace()
+        } finally {
+            if (input != null) {
+                try {
+                    input.close()
+                } catch (e: IOException) {
+                    e.printStackTrace()
+                }
+            }
+        }
+
     }
 
 }

@@ -21,6 +21,6 @@ class DeadLockAnalyzer : IAnalyzer {
             ret.append(it.stack[0])
                     .append("-")
         }
-        return "[DeadLockAnalyzer:between $ret]"
+        return "[DeadLockAnalyzer_dead_lock_between:$ret]"
     }
 }

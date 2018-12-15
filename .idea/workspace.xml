@@ -2,25 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3306bbaf-2b85-4fb8-8a08-3f74c4acfca8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/LocksAnalyzer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/LockWaitAnalyzer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/IParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/IParser.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/Parser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/Parser.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/AnalyzerSet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/AnalyzerSet.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/BroadcastAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/BroadcastAnalyzer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/ContentProviderAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/ContentProviderAnalyzer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/CpuAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/CpuAnalyzer.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/DeadLockAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/DeadLockAnalyzer.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/IOWaitAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/IOWaitAnalyzer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/IPCAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/IPCAnalyzer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/InputDispatchingAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/InputDispatchingAnalyzer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/ServiceAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/ServiceAnalyzer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/TrackExternalAllocationAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/TrackExternalAllocationAnalyzer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/UIThreadAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/UIThreadAnalyzer.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/model/ContentDesc.kt" beforeDir="false" afterPath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/model/ContentDesc.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/model/ThreadDesc.kt" beforeDir="false" afterPath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/model/ThreadDesc.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/report/Reporter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/report/Reporter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/model/SystemDesc.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/test/MainTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/test/MainTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,41 +28,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AnalyzerSet.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/AnalyzerSet.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Parser.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/anr-parser/src/com/eastern/parser/Parser.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainTest.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainTest.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/anr-parser/src/com/eastern/parser/test/MainTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="162">
+              <caret line="19" column="96" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="96" />
               <folding>
-                <element signature="e#33#85#0" expanded="true" />
+                <element signature="e#33#162#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CpuAnalyzer.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/CpuAnalyzer.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -137,10 +101,7 @@
         <option value="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/IReporter.kt" />
         <option value="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/Reporter.kt" />
         <option value="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/MainTest.kt" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/IParser.kt" />
-        <option value="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/model/ContentDesc.kt" />
-        <option value="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/AnalyzerSet.kt" />
         <option value="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/model/ThreadDesc.kt" />
         <option value="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/LocksAnalyzer.kt" />
         <option value="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/report/Reporter.kt" />
@@ -148,14 +109,19 @@
         <option value="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/BroadcastAnalyzer.kt" />
         <option value="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/ContentProviderAnalyzer.kt" />
         <option value="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/InputDispatchingAnalyzer.kt" />
-        <option value="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/IOWaitAnalyzer.kt" />
         <option value="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/IPCAnalyzer.kt" />
         <option value="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/ServiceAnalyzer.kt" />
         <option value="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/TrackExternalAllocationAnalyzer.kt" />
-        <option value="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/DeadLockAnalyzer.kt" />
-        <option value="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/Parser.kt" />
-        <option value="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/test/MainTest.kt" />
         <option value="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/CpuAnalyzer.kt" />
+        <option value="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/model/ContentDesc.kt" />
+        <option value="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/Parser.kt" />
+        <option value="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/IOWaitAnalyzer.kt" />
+        <option value="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/AnalyzerSet.kt" />
+        <option value="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/DeadLockAnalyzer.kt" />
+        <option value="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/LockWaitAnalyzer.kt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/local.properties" />
+        <option value="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/test/MainTest.kt" />
       </list>
     </option>
   </component>
@@ -207,28 +173,6 @@
             <path>
               <item name="AnrAnalyzer" type="b2602c69:ProjectViewProjectNode" />
               <item name="AnrAnalyzer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AnrAnalyzer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnrAnalyzer" type="462c0819:PsiDirectoryNode" />
-              <item name="anr-parser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AnrAnalyzer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnrAnalyzer" type="462c0819:PsiDirectoryNode" />
-              <item name="anr-parser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AnrAnalyzer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnrAnalyzer" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AnrAnalyzer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnrAnalyzer" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AnrAnalyzer" type="b2602c69:ProjectViewProjectNode" />
@@ -381,11 +325,11 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.23822714" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40652174" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40978262" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.41847825" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24848485" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15977961" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -402,20 +346,20 @@
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2630435" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40978262" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26666668" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15977961" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.51304346" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44130436" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.41847825" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
@@ -423,7 +367,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32826087" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32826087" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.23822714" />
       <window_info id="Favorites" order="5" side_tool="true" />
     </layout-to-restore>
@@ -433,7 +377,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="31" />
+      <option name="time" value="36" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -486,36 +430,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yy/main/GoodMan.kt" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" lean-forward="true" selection-end-line="67" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yy/main/panel/Main.kt" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
@@ -564,13 +478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anr-parser/src/com/eastern/parser/model/SystemDesc.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -599,13 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/anr-parser/src/com/eastern/parser/IParser.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -617,13 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="153" column="16" selection-start-line="153" selection-start-column="16" selection-end-line="153" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anr-parser/src/com/eastern/parser/model/ContentDesc.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -672,13 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/IOWaitAnalyzer.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/ServiceAnalyzer.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -714,40 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/DeadLockAnalyzer.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding>
-            <element signature="e#31#117#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/AnalyzerSet.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anr-parser/src/com/eastern/parser/Parser.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anr-parser/src/com/eastern/parser/test/MainTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="e#33#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -755,6 +607,109 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anr-parser/src/com/eastern/parser/model/SystemDesc.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anr-parser/src/com/eastern/parser/model/ContentDesc.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anr-parser/src/com/eastern/parser/Parser.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/IOWaitAnalyzer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/AnalyzerSet.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/DeadLockAnalyzer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+          <folding>
+            <element signature="e#31#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/LockWaitAnalyzer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding>
+            <element signature="e#31#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/src.zip!/java/io/FileOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="99" column="11" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="91" column="11" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/src.zip!/sun/rmi/server/LoaderHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="290" column="30" selection-start-line="290" selection-start-column="30" selection-end-line="290" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anr-parser/src/com/eastern/parser/test/MainTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="19" column="96" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="96" />
+          <folding>
+            <element signature="e#33#162#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
