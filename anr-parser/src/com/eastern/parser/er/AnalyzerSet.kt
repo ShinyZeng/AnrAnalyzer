@@ -6,6 +6,7 @@ import com.eastern.parser.report.IReporter
 
 enum class AnalyzerSet constructor(val clazz: Class<out IAnalyzer>) {
 
+    LOCK_ANALYZER(LocksAnalyzer::class.java),
     UI_THREAD_ANALYZER(UIThreadAnalyzer::class.java),
     DEAD_LOCK_ANALYZER(DeadLockAnalyzer::class.java),
     IO_WAIT_LOCK_ANALYZER(IOWaitAnalyzer::class.java),

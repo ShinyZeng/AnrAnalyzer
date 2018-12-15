@@ -1,6 +1,5 @@
 package com.eastern.parser.er
 
-import com.eastern.common.log.Log
 import com.eastern.parser.model.ContentDesc
 
 /**
@@ -25,7 +24,6 @@ class UIThreadAnalyzer : IAnalyzer {
 
     override fun analyzer(contentDesc: ContentDesc): String {
         //主要分析主线程的状态
-        Log.i("start analyze UIThreadAnalyzer")
-        return ""
+        return "[UIThreadAnalyzer:]"
     }
 }

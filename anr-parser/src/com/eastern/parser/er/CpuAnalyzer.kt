@@ -1,6 +1,5 @@
 package com.eastern.parser.er
 
-import com.eastern.common.log.Log
 import com.eastern.parser.model.ContentDesc
 
 /**
@@ -9,7 +8,6 @@ import com.eastern.parser.model.ContentDesc
 class CpuAnalyzer : IAnalyzer {
 
     override fun analyzer(contentDesc: ContentDesc): String {
-        Log.i("start analyze CpuAnalyzer")
-        return ""
+        return "[CpuAnalyzer:是否高CPU负载：]"
     }
 }

@@ -1,6 +1,5 @@
 package com.eastern.parser.er
 
-import com.eastern.common.log.Log
 import com.eastern.parser.model.ContentDesc
 
 /**
@@ -10,8 +9,15 @@ import com.eastern.parser.model.ContentDesc
 class TrackExternalAllocationAnalyzer : IAnalyzer {
 
     override fun analyzer(contentDesc: ContentDesc): String {
-        Log.i("start analyze TrackExternalAllocationAnalyzer")
+        var lowMemory = false
+        contentDesc.threadList.forEach { thread ->
+            thread.stack.forEach {
+                if (it.contains("trackExternalAllocation")) {
+                    lowMemory = true
+                }
+            }
+        }
 
-        return ""
+        return "[TrackExternalAllocationAnalyzer:可能内存不足:$lowMemory]"
     }
 }

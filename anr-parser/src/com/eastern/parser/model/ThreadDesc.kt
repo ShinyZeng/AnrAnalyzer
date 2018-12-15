@@ -1,17 +1,23 @@
 package com.eastern.parser.model
 
 
-data class ThreadDesc(private val name: String, private val id: Int) {
+class ThreadDesc {
 
-
-    val list = ArrayList<String>()
+    /**
+     * stack
+     */
+    val stack = ArrayList<String>()
     /**
      * 持有的锁
      */
-    var lock: Array<String>? = null
+    var lockedLocks = ArrayList<String>()
 
     /**
      * 等待的锁
      */
-    val waitingLock: Array<String>? = null
+    val waitingLocks = ArrayList<String>()
+
+    var lineNumber = -1
+
+    var desc = ""
 }

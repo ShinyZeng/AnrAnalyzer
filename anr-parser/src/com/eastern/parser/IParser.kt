@@ -8,6 +8,6 @@ interface IParser {
     /**
      * 解析
      */
-    fun parse(file: File): String
+    fun parse(pkgName: String, file: File): String
 
 }
