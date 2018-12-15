@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3306bbaf-2b85-4fb8-8a08-3f74c4acfca8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/LockWaitAnalyzer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/Parser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/Parser.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/AnalyzerSet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/AnalyzerSet.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/DeadLockAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/DeadLockAnalyzer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/IOWaitAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/er/IOWaitAnalyzer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/model/ContentDesc.kt" beforeDir="false" afterPath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/model/ContentDesc.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/model/SystemDesc.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/test/MainTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/anr-parser/src/com/eastern/parser/test/MainTest.kt" afterDir="false" />
-    </list>
+    <list default="true" id="3306bbaf-2b85-4fb8-8a08-3f74c4acfca8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/lib/target/" />
@@ -31,8 +19,8 @@
       <file leaf-file-name="MainTest.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/anr-parser/src/com/eastern/parser/test/MainTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="19" column="96" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="96" />
+            <state relative-caret-position="534">
+              <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
               <folding>
                 <element signature="e#33#162#0" expanded="true" />
               </folding>
@@ -314,7 +302,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -325,11 +312,11 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.23822714" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40978262" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40978262" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.41847825" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15977961" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15977961" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -351,7 +338,7 @@
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40978262" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15977961" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15977961" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -705,8 +692,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/anr-parser/src/com/eastern/parser/test/MainTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="19" column="96" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="96" />
+        <state relative-caret-position="534">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
           <folding>
             <element signature="e#33#162#0" expanded="true" />
           </folding>

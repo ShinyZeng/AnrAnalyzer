@@ -19,7 +19,7 @@ class LockWaitAnalyzer : IAnalyzer {
         if (uiWaitLock.isNotEmpty()) {
             contentDesc.threadList.forEach { thread ->
                 thread.lockedLocks.forEach {
-                    if (it == uiWaitLock) {
+                    if (it == uiWaitLock && !thread.stack[0].contains(" tid=1 ")) {
                         isBlockByThread = thread
                     }
                 }
